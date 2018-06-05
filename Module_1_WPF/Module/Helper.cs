@@ -25,7 +25,7 @@ namespace Module_1_WPF.Module
             smtp.EnableSsl = true;
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new NetworkCredential("Vassilyevalexey@gmail.com", "8888888"); //!!!!!
+            smtp.Credentials = new NetworkCredential("Vassilyevalexey@gmail.com", "888888"); //!!!!!
 
             try
             {
